@@ -1,11 +1,17 @@
 body{
-    background-image: url("../images/circles-light.png");
+    background-image: url("../images/gravel.jpg.png");
     padding: 0;
     margin: 0;
 }
 
-h1,
-h2,
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
 h3{
     color: #4aaaa5;
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -16,13 +22,13 @@ p{
     color: #777777;
 }
 
-.sticky{
+.main{
     min-height: calc(100vh - 55px);
 }
 
-/* Header Section*/
 
-#headerWrapper{
+
+#mainWrapper{
     width: 960px;
     margin: 0 auto;
 }
@@ -33,7 +39,7 @@ header{
     
 }
 
-#mainLogo{
+#main_title{
     background-color: #4aaaa5;
     color: #fff;
     font-size: 1.5rem;
@@ -41,7 +47,7 @@ header{
     padding: 10px;
 }
 
-#menu{
+#title_header{
     display: inline-block;
     float: right;
 }
@@ -68,13 +74,13 @@ nav a:active{
     color: gold;
 }
 
-/*Main Content Section*/
+
 
 #mainImage{
     width: 150px;
 }
 
-#mainContentWrapper{
+#main_wrapper2{
     width: 960px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -82,7 +88,7 @@ nav a:active{
 }
 
 
-.aboutMe{
+.title_border{
     border-bottom: 2px solid #666666;
 }
 
@@ -93,12 +99,12 @@ img{
     float: left;
 }
 
-#aboutMeWrapper{
+#content_Wrapper{
     margin: 15px 15px 15px;
     overflow: auto;
     position: relative;
 }
-/*-----FOOTER------*/
+
 
 footer{
     background-color: #666666;
@@ -117,13 +123,19 @@ footer{
 
 }
 
-/*-----CONTACT PAGE CSS------*/
 
-#nameBlock,
 
-#emailBlock,
+#name_box {
+    margin-bottom: 10px;
+    width: 90%;
+}
 
-#messageBlock{
+#email_box {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#text_box {
     margin-bottom: 10px;
     width: 90%;
 }
@@ -133,13 +145,13 @@ footer{
     padding: 5px 10px;
 }
 
-/*-----PORTFOLIO PAGE CSS------*/
 
-.imageTable{
+
+.picture_table{
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; 
 }
 
-.imageTable img{
+.picture_table img{
     opacity: .5;
     margin-bottom: 5px;
 }
@@ -148,17 +160,12 @@ img:hover{
     opacity: 1;
 }
 
-#td1{
-    position: relative;
-}
-#td2,
-#td3,
-#td4,
-#td5{
+#table{
     position: relative;
 }
 
-.textBlock{
+
+.text_title {
     position: absolute;
     top: 60%;
     width: 94%;
