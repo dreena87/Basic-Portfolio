@@ -120,7 +120,9 @@ footer{
 /*-----CONTACT PAGE CSS------*/
 
 #nameBlock,
+
 #emailBlock,
+
 #messageBlock{
     margin-bottom: 10px;
     width: 90%;
@@ -164,4 +166,5 @@ img:hover{
     background-color: #4aaaa5;
     color: #fff;
     text-align: center;
+    padding-top: 5%;
 }
